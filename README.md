@@ -29,4 +29,4 @@ A backend project built to practice advanced server-side concepts, including API
 ---
 
 ## 📁 Folder Structure
-
+- backend-2/ ├── config/ # Database connection and config ├── controllers/ # Route logic handlers ├── middlewares/ # Auth and custom middleware ├── models/ # Mongoose schemas/models ├── routes/ # API route definitions ├── utils/ # Helper functions ├── .env # Environment variables ├── .gitignore ├── app.js # Entry point (Express setup) ├── package.json └── README.md
