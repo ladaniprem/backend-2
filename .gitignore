@@ -1,0 +1,39 @@
+# Operating System generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+node_modules/  # Exclude node_modules
+
+# Environment files
+.env  # Exclude environment files
+.venv/
+env/
+virtualenv/
+env.js
+
+# Log files
+*.log
+npm-debug.log*
+
+# Build files
+dist/
+build/
+out/
+
+# Cache files
+.cache/
+
+# Include important files
+!README.md  # Ensure README.md is included

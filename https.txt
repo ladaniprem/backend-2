@@ -1,0 +1,66 @@
+HTTP Crash course:-(Hyper Text Transfer protocol)
+URL,URI,URN not more difference 
+
+what are http headers:-
+Name:- Ladani prem name is key and prem is value 
+metadata --> key-value sent along with request and response
+--> caching ,authentication,manage state
+x- prefix --> 2012(x-deprecated)
+
+--> request headers = from client
+--> response headers = from server
+--> representation headers = encoding/compression
+--> payload headers = data id and emails example
+
+most common headers :-
+-->accept : application/icon
+-->user: Agent
+-->Authorization
+--> content- type
+--> cookies
+--> cache- control
+
+cors :-
+access-control-allow-origin
+access-control-allow-credentials
+access-control-allow-method
+
+security :-
+Cross-Origin-Embedded-Policy
+cross-origin-opener-policy
+content-security-policy
+x-xss-protocol
+
+HTTP Methods:-
+
+basic set of operation that can be used to interact with server 
+
+-->GET :- retries a resource
+-->HEAD:- No message body (response headers only)
+-->OPTIONS:- what operations are available
+-->TRACE:- loopback test (get same data) 
+-->DELETE:- remove a resource
+-->PUT:- replace a resource
+-->POST:-interact with resource(mostly add)
+-->PATCH:-change part of a resource
+
+http status code
+-->1xx :- Information
+-->2xx :- success
+-->3xx:-  Redirection
+-->4xx :- client error 
+-->5xx :- server error
+
+100--> continue
+102--> processing
+200--> ok
+201--> created 
+202--> accepted
+307-->temporary redirect
+308-->permanent redirect
+400--> Bad request
+401-->Unauthorized
+402-->payment required
+404-->not found
+500-->internal server error
+504-->gateway time out
