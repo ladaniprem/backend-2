@@ -45,8 +45,8 @@ A backend project built to practice advanced server-side concepts, including API
 ### 1. Clone the Repository
 
 ``bash
-git clone https://github.com/your-username/backend-2.git
-cd backend-2
+- git clone https://github.com/your-username/backend-2.git
+- cd backend-2
 
 ---
 
